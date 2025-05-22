@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About the Company – Untitled UI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Use Inter font from Google Fonts for best match -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__left">
+        <img src="assets/logo.svg" alt="Untitled UI Logo" class="nav__logo"/>
+        <span class="nav__brand">Untitled UI</span>
+      </div>
+      <button class="nav__toggle" aria-label="Open navigation">
+        <!-- Hamburger icon SVG -->
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="#" class="nav__login">Log in</a>
+        <a href="#" class="btn btn--primary">Sign up</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-hero container">
+      <div class="about-hero__labels">
+        <span class="about-hero__section-label">About us</span>
+      </div>
+      <h1 class="about-hero__title">About the company</h1>
+      <p class="about-hero__subtitle">
+        Learn more about the company and the team behind it.
+      </p>
+    </section>
+
+    <section class="about-main container">
+      <div class="about-main__image">
+        <img src="assets/office.jpg" alt="Modern office workspace"/>
+      </div>
+      <div class="about-main__content">
+        <span class="about-main__eyebrow">We’ve helped hundreds of companies</span>
+        <h2 class="about-main__heading">
+          We’re only just getting started on our journey
+        </h2>
+        <p class="about-main__desc">
+          Everything you need to build modern UI and great products. We’ve done all the heavy lifting so you don’t have to — the perfect starting point for any project.
+        </p>
+        <div class="about-main__stats">
+          <div class="about-main__stat">
+            <span class="about-main__stat-value">400+</span>
+            <span class="about-main__stat-label">Projects completed</span>
+          </div>
+          <div class="about-main__stat">
+            <span class="about-main__stat-value">600%</span>
+            <span class="about-main__stat-label">Return on investment</span>
+          </div>
+          <div class="about-main__stat">
+            <span class="about-main__stat-value">10k</span>
+            <span class="about-main__stat-label">Global downloads</span>
+          </div>
+          <div class="about-main__stat">
+            <span class="about-main__stat-value">200+</span>
+            <span class="about-main__stat-label">5-star reviews</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="about-main__image">
+        <img src="assets/office.jpg" alt="Modern office workspace"/>
+      </div> -->
+    </section>
+  </main>
+</body>
+</html>
